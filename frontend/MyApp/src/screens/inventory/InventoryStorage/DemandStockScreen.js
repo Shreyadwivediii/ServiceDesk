@@ -46,6 +46,8 @@ export default function DemandStockScreen({ navigation }) {
     }
   };
 
+  // Fetch once when the screen mounts; callbacks read the current auth token.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { fetchItems(); }, []);
 
   const updateDemandValue = (itemName, value) => {

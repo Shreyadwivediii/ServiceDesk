@@ -32,14 +32,11 @@ A full‑stack, role‑based service desk for a college campus. Students raise c
 
 ## 📱 Demo
 
-> **Live API:** `https://service-desk-backend-sooty.vercel.app`  ·  **Android APK:** _add a build to [GitHub Releases](https://github.com/Shreyadwivediii/ServiceDesk/releases)_
+The backend health endpoint is available at
+[service-desk-backend-sooty.vercel.app](https://service-desk-backend-sooty.vercel.app).
 
-<!-- Drop real captures into docs/screenshots/ and they'll render here -->
-| Splash | Home (role picker) | Login | Dashboard |
-|:---:|:---:|:---:|:---:|
-| <img src="docs/screenshots/splash.png" width="190"/> | <img src="docs/screenshots/home.png" width="190"/> | <img src="docs/screenshots/login.png" width="190"/> | <img src="docs/screenshots/dashboard.png" width="190"/> |
-| Complaints list | Complaint detail | Assign worker | Inventory storage |
-| <img src="docs/screenshots/complaints.png" width="190"/> | <img src="docs/screenshots/detail.png" width="190"/> | <img src="docs/screenshots/assign.png" width="190"/> | <img src="docs/screenshots/inventory.png" width="190"/> |
+Mobile screenshots and the installable Android build will be published with the
+next GitHub Release.
 
 <details>
 <summary><b>Example API response</b> — <code>GET /api/show_complaint_id</code> (user's complaints)</summary>

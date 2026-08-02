@@ -4,13 +4,14 @@ import React, { createContext, useContext, useState, useRef, useCallback } from 
 import { Animated, Text, View, Pressable } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-const safeInsets = () => {
+const useSafeInsets = () => {
   try {
     return useSafeAreaInsets();
   } catch (error) {
     return { bottom: 0 };
   }
 };
+
 import { useTheme } from '../../theme';
 import Icon from './Icon';
 
@@ -24,7 +25,7 @@ export function useToast() {
 
 export function ToastProvider({ children }) {
   const { colors, radius, elevation } = useTheme();
-  const insets = safeInsets();
+  const insets = useSafeInsets();
   const [toast, setToast] = useState(null);
   const y = useRef(new Animated.Value(140)).current;
   const timer = useRef(null);

@@ -48,6 +48,8 @@ export default function BookedIdsScreen() {
     }
   };
 
+  // Fetch once when the screen mounts; pull-to-refresh handles later updates.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { fetchBookedIds(); }, []);
 
   const onRefresh = () => {
