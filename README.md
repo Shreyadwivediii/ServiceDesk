@@ -11,11 +11,11 @@ A full‑stack, role‑based service desk for a college campus. Students raise c
 
 <br/>
 
-[![License](https://img.shields.io/badge/license-ISC-blue.svg)](#-license)
-[![Stars](https://img.shields.io/github/stars/samayjainbm/ServiceDesk?style=flat)](https://github.com/samayjainbm/ServiceDesk/stargazers)
-[![Forks](https://img.shields.io/github/forks/samayjainbm/ServiceDesk?style=flat)](https://github.com/samayjainbm/ServiceDesk/network/members)
-[![Issues](https://img.shields.io/github/issues/samayjainbm/ServiceDesk)](https://github.com/samayjainbm/ServiceDesk/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/samayjainbm/ServiceDesk)](https://github.com/samayjainbm/ServiceDesk/commits)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](#-license)
+[![Stars](https://img.shields.io/github/stars/Shreyadwivediii/ServiceDesk?style=flat)](https://github.com/Shreyadwivediii/ServiceDesk/stargazers)
+[![Forks](https://img.shields.io/github/forks/Shreyadwivediii/ServiceDesk?style=flat)](https://github.com/Shreyadwivediii/ServiceDesk/network/members)
+[![Issues](https://img.shields.io/github/issues/Shreyadwivediii/ServiceDesk)](https://github.com/Shreyadwivediii/ServiceDesk/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/Shreyadwivediii/ServiceDesk)](https://github.com/Shreyadwivediii/ServiceDesk/commits)
 
 <!-- Tech badges -->
 ![React Native](https://img.shields.io/badge/React_Native-0.84-20232A?logo=react&logoColor=61DAFB)
@@ -32,7 +32,7 @@ A full‑stack, role‑based service desk for a college campus. Students raise c
 
 ## 📱 Demo
 
-> **Live API:** `https://service-desk-backend-sooty.vercel.app`  ·  **Android APK:** _add a build to [GitHub Releases](https://github.com/samayjainbm/ServiceDesk/releases)_
+> **Live API:** `https://service-desk-backend-sooty.vercel.app`  ·  **Android APK:** _add a build to [GitHub Releases](https://github.com/Shreyadwivediii/ServiceDesk/releases)_
 
 <!-- Drop real captures into docs/screenshots/ and they'll render here -->
 | Splash | Home (role picker) | Login | Dashboard |
@@ -280,7 +280,7 @@ ServiceDesk/
   (see the official [RN environment setup](https://reactnative.dev/docs/set-up-your-environment))
 
 ```bash
-git clone https://github.com/samayjainbm/ServiceDesk.git
+git clone https://github.com/Shreyadwivediii/ServiceDesk.git
 cd servicedesk
 ```
 

@@ -141,10 +141,10 @@ router.get("/", async (req, res) => {
         avatar: null,
       },{
         user_id: 12,
-        user_name: "Samay Jain",
+        user_name: "Demo User",
         user_address: "Bhopal",
         phone_number: "9000000012",
-        email: "samayjain72258@gmail.com",
+        email: "demo.user12@example.com",
         google_sub: "",
         avatar: null,
       },
